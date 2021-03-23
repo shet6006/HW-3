@@ -23,6 +23,7 @@ typedef struct {
 } student2; //st2를 선언할 때 struct를 붙여주지 않아도 됨
 
 int main(){
+	printf("-----[김동원] [2020039023]-----\n\n");
 	struct student1 st1 = {'A', 100, 'A'};
 	printf("st1.lastName = %c\n", st1.lastName);   //
 	printf("st1.studentId = %d\n", st1.studentId); // struct1의 자료에 대한 값을 가지는 st1의 값들
